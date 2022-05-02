@@ -6,11 +6,17 @@
 
 .titles {
   font-family: "Playfair Display", serif;
-  display: inline;
+  color: var(--titles-color);
+  text-align: center;
+  font-size: 95px;
+  margin-top: 80px;
+  margin-bottom: 60px;
 }
 
 h2 {
   font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  text-align: center;
 }
 
 .hero {
@@ -70,6 +76,13 @@ small {
   border-color: var(--highlight-color);
 }
 
+.about-me-desc {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin: 10px 60px;
+  font-size: 40px;
+}
+
 @media (max-width: 700px) {
   .hero h1 {
     font-size: 85px;
@@ -81,5 +94,17 @@ small {
 
   .introduction {
     font-size: 18px;
+  }
+
+  .titles {
+    font-size: 80px;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+
+  .about-me-desc {
+    font-size: 25px;
   }
 }
