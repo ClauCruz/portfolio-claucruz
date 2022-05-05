@@ -107,6 +107,25 @@ h2 {
   font-size: 16px;
 }
 
+.email-to {
+  font-size: 25px;
+  color: var(--titles-color);
+}
+
+.social-links {
+  font-size: 45px;
+  margin: 15px;
+  color: var(--titles-color);
+}
+
+.email-to:hover {
+  color: var(--highlight-color);
+}
+
+.social-links:hover {
+  color: var(--highlight-color);
+}
+
 @media (max-width: 700px) {
   .hero h1 {
     font-size: 85px;
@@ -130,5 +149,9 @@ h2 {
 
   .about-me p {
     font-size: 25px;
+  }
+
+  .sections p {
+    font-size: 20px;
   }
 }
