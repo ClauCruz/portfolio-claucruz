@@ -40,6 +40,11 @@ h2 {
   margin-top: 25px;
 }
 
+.claudia-picture {
+  max-width: 300px;
+  border-radius: 10px;
+}
+
 .sections {
   text-align: center;
 }
@@ -47,8 +52,8 @@ h2 {
 .sections h1 {
   font-family: "Playfair Display", serif;
   color: var(--titles-color);
-  margin: 50px;
-  font-size: 90px;
+  margin: 40px;
+  font-size: 70px;
 }
 
 .sections h2 {
@@ -60,7 +65,7 @@ h2 {
 
 .sections h3 {
   font-family: "Poppins", sans-serif;
-  font-size: 45px;
+  font-size: 35px;
 }
 
 .sections p {
