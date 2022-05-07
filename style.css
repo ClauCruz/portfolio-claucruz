@@ -87,6 +87,21 @@ h2 {
   font-size: 40px;
 }
 
+.navigation-links {
+  padding: 15px 25px;
+  text-decoration: none;
+  border: 1px solid;
+  border-radius: 5px;
+  color: var(--main-color);
+  background-color: var(--titles-color);
+  border-color: var(--titles-color);
+}
+
+.navigation-links:hover {
+  color: var(--titles-color);
+  background-color: var(--main-color);
+}
+
 .contact-link {
   padding: 15px 25px;
   text-decoration: none;
